@@ -49,13 +49,17 @@ list-style-type: none;
 text-align: center;
 vertical-align: middle;
 }
-nav li a h2{
+
+#leftlinks h2, #rightlinks h2{
 vertical-align: middle;
 display:inline-block;
 }
-a:visited{
-color: #ffffff;
+
+#leftlinks h2:hover, #rightlinks h2:hover{
+border-bottom: thin solid #ffffff;
 }
+
+
 
 #leftlinks{
 vertical-align: middle;
@@ -73,6 +77,8 @@ height: auto;
 }
 
 #logophoto{
+width: 150px;
+height: 150px;
 max-width: 100%;
 }
 
@@ -153,6 +159,7 @@ text-align:center;
 }
 
 .about_second{
+margin-top: 2em;
 width: 60%;
 float:right;
 text-align:center;
@@ -187,7 +194,7 @@ font-weight: 300;
 margin-right: 5em;
 }
 
-#dukie{
+#aboutmerest a{
 font-family: "Vito",sans-serif;
 color: #4A90E2;
 font-size: 18px;
@@ -259,13 +266,16 @@ font-size: 16px;
 text-decoration: none;
 }
 .exp_first{
+padding-top: 1.5em;
 width: 60%;
 float:left;
 text-align:center;
 height: 100%;
+padding-bottom: 5em;
 }
 
 .exp_second{
+padding-top: 1.5em;
 width: 40%;
 float:right;
 text-align:center;
@@ -316,7 +326,10 @@ max-width: 100%;
 
 
 
-
+#footer img{
+	width: 30px;
+	height: 30px;
+}
 
 
 }
@@ -333,15 +346,15 @@ max-width: 100%;
 width: 50%;
 float:left;
 text-align:center;
-margin-top: 2em;
+padding-top: 2em;
 }
 
 .contactright{
+padding-top: 2em;
 width: 50%;
 float: right;
 margin-left: auto;
 margin-right: auto;
-margin-top: 2em;
 }
 
 #contacttext{
