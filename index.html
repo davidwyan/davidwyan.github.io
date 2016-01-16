@@ -206,8 +206,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								}
 								
 								for (var i = 3; i <= 5; i++) {
+									var j = 5-i;
 									var child = document.getElementById('circles-' + i),
-										percentage = 50 + (i * 10);
+										percentage = 50 + (j * 10);
 										
 									Circles.create({
 										id:         child.id,
@@ -221,9 +222,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								}
 								
 								for (var i = 5; i <= 7; i++) {
+									
 									var child = document.getElementById('circles-' + i),
 										percentage = 60 + (i * 10);
-										
+									var j = 7-i;
+
 									Circles.create({
 										id:         child.id,
 										percentage: percentage,
