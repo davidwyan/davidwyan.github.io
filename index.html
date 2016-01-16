@@ -222,10 +222,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								}
 								
 								for (var i = 5; i <= 7; i++) {
-									
-									var child = document.getElementById('circles-' + i),
-										percentage = 60 + (i * 10);
 									var j = 7-i;
+									var child = document.getElementById('circles-' + i),
+										percentage = 60 + (j * 10);
 
 									Circles.create({
 										id:         child.id,
