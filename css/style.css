@@ -81,8 +81,8 @@ ul.side_nav li a{
 	margin-bottom:1em;
 }
 ul.side_nav li a:hover{
-	background:#53bed6;
-	border:2px solid#53bed6;
+	background:#34353a;
+	border:2px solid #34353a;
 }
 /*--slider--*/
 .top-menu {
@@ -341,7 +341,7 @@ fieldset#body {
 	  z-index: 999;
 	  position: absolute;
 	    width: 93.5%;
-	  background:#53bed6;
+	  background:#34353a;
 	  text-align: center;
 	  margin-left: -2.3em;
 	}
@@ -552,7 +552,7 @@ span.circles-text {
 /*--//my skill--*/
 /*-- projects --*/
 .projects{
-	background:#53bed6;
+	background:#34353a;
 	min-height:600px;
 	position:relative;
 	  padding-top: 12em;
@@ -824,13 +824,13 @@ h3.tittle.two {
   font-size: 4em;
 }
 .map-l i {
-  color:#53bed6;
+  color:#34353a;
   font-size: 4em;
 }
 /*--welcome--*/
 .copy {
    text-align: center;
-    background:#53bed6;
+    background:#34353a;
     padding: 1em 1em;
   }
 .copy p {
@@ -1207,7 +1207,7 @@ h3.tittle.two {
 	  z-index: 999;
 	  position: absolute;
 	  width: 95.5%;
-	  background: #53bed6;
+	  background: #34353a;
 	  text-align: center;
 	  margin-left: -2.3em;
 	}
