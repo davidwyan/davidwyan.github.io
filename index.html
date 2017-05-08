@@ -11,25 +11,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="David W Yan, Duke University, David Yan, Duke" />
-	<script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- Custom Theme files -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<!--webfonts-->
-	<link href='//fonts.googleapis.com/css?family=Candal|Raleway:500,600,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!--//webfonts-->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<!--/script-->
-	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-			});
-		});
-	</script>
 </head>
 <body>
 <!--start-home-->
@@ -39,18 +29,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<!--top-nav-->
 			<span class="menu"> </span>
-			<div class="top-menu">
-				<nav>
-					<ul class="cl-effect-16">
-						<li><a class="active scroll" href="#home" data-hover="Home">Home</a></li>
-						<li><a class="scroll" href="#about" data-hover="About">About</a></li>
-						<li><a class="scroll" href="#experience" data-hover="experience">Experience</a></li>
-						<li><a class="scroll" href="#skill" data-hover="Skills">Skills</a></li>
-						<li><a class="scroll" href="#contact" data-hover="Contact">Contact</a></li>
-						<div class="clearfix"></div>
-					</ul>
-				</nav>
-			</div>
 			<div class="clearfix"></div>
 			<!-- script-for-menu -->
 		</div>
@@ -60,188 +38,62 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- script-for-menu -->
 		<div class="banner-info">
 			<div class="logo">
-				<a href="index.html"><h1>David Yan </h1></a>
+				<a href=""><h1>David W. Yan</h1></a>
 			</div>
-			<p> Welcome to my personal website.<lable> I am a <strong>Hopeful Future Programmer</strong>. Based in <strong>Durham, NC</strong>.</lable></p>
-			<div class="scroll-down">
-				<h4>SCROLL DOWN</h4>
-				<a class="downarrow scroll" href="#about"><span></span></a>
+			<div class="container">
+				<div class="col-md-5 ab-grid pic">
+					<img src="images/davidpic.jpg" alt=" " title="david yan">
+				</div>
+				<div class="col-md-7 ab-grid text">
+					<h4>Hi! My name is David Yan, and I am currently a Third Year Computer Science Major at Duke University.</h4>
+					<p>I am particularly interested in Software Engineering, particularly in a Full Stack Engineering role.</p>
+					<p>I have experience with many languages and technologies, particularly those pertaining to mathematical computation, software development, GUI design, and website development.</p>
+					<p>I also have interests in the academic realm of Computer Science as well, particularly with respect to graph algorithms as well as parallel computing.</p>
+					<p>I look forward to becoming a better computer scientist and software engineer through summer internships and personal projects.</p>
+
+					<div class="login-pop">
+						<div id="loginpop"><a href="resources/davidyanresume.pdf" id="loginButton"><span>Download My Resume <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
 			</div>
+		</div>
 		</div>
 	</div>
 </div>
 <!--about-->
 <div class="about" id="about">
-	<div class="container">
-		<h3 class="tittle">About Me</h3>
-		<div class="col-md-5 ab-grid pic">
-			<img src="images/davidpic.jpg" alt=" " title="ab">
-		</div>
-		<div class="col-md-7 ab-grid text">
-			<h4>My name is David Yan, and I am currently a Third Year Computer Science Major at Duke University.</h4>
-			<p>I am particularly interested in Software Design and Website Development.</p>
-			<p>I have experience with many languages, particularly those pertaining to mathematical computation, software development, GUI design, and website development.</p>
-			<p>I look forward to learning more languages and working in computer science industry through summer internships and personal projects.</p>
-			<div class="login-pop">
-				<div id="loginpop"><a href="resources/davidyanresume.pdf" id="loginButton"><span>Download My Resume <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a>
-
-				</div>
-			</div>
-		</div>
-		<div class="clearfix"> </div>
+	<h3 class="tittle">My Skills</h3>
+	<div class="row">
+    <div class="col-sm-2" align = "center"><img src="images/angular.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/backbone.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/c.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/cpp.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/css.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/html.png"></div>
 	</div>
-</div>
-<!--//about-->
-<!--experience-starts-->
-<div class="experience" id="experience">
-	<div class="container">
-		<h3 class="tittle four">Education & Experience</h3>
-
-		<div class="experience-main">
-			<span class="devide-line"></span>
-			<div class="experience-left">
-				<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-				<h4>Undergraduate Teaching Assistant</h4>
-				<h5>Duke University [ 2015 - 2016 ]</h5>
-				<p>I worked as an UTA for Duke's Compsci 101 class. I taught a weekly lab section to approximately 30 students and held consulting hours where I assisted programming students for the course.</p>
-			</div>
-			<div class="experience-left-snd">
-				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
-			</div>
-			<div class="experience-right-snd">
-				<h4>Primary Researcher</h4>
-				<h5>Duke Mobile Medicine [ 2016 - Present ]</h5>
-				<p>I developed an iOS app in Swift to collect over 3 million minute by minute movement data points for Fitbit users, and parsed these data points to be exported to Matlab in CSV format.</p>
-			</div>
-			<div class="experience-left-trd">
-				<span class="glyphicon glyphicon-globe	" aria-hidden="true"></span>
-				<h4>Software Engineering Intern</h4>
-				<h5>Trading Technologies International, Inc. [ Summer 2016 ]</h5>
-				<p>I worked in Trading Technologies' Web Development Team, where I developed new Javascript based features to enable efficient web trading on the TT Web trading platform and worked alongside full time engineers to resolve client-reported bugs within the TT web platform. </p>
-			</div>
-
-
-			<div class="clearfix"> </div>
-
-
-		</div>
-	</div>
-
+  <div class="row">
+		<div class="col-sm-2" align = "center"><img src="images/java.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/javascript.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/matlab.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/nodejs.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/python.png"></div>
+		<div class="col-sm-2" align = "center"><img src="images/sql.png"></div>
+  </div>
 </div>
 
-<!--experience-end-->
-
-<!--my-skill-->
-<div class="my-skills text-center" id="skill">
-	<div class="container">
-		<h3 class="tittle">My Skills</h3>
-		<div class="skill-grids">
-			<div class="col-md-2 skills-grid text-center">
-				<div class="circle" id="circles-1"></div>
-				<p>AngularJS</p>
-			</div>
-			<div class="col-md-2 skills-grid text-center">
-				<div class="circle" id="circles-2"></div>
-				<p>PHP</p>
-			</div>
-			<div class="col-md-2 skills-grid text-center">
-				<div class="circle" id="circles-3"></div>
-				<p>JavaScript</p>
-			</div>
-			<div class="col-md-2 skills-grid text-center">
-				<div class="circle" id="circles-4"></div>
-				<p>HTML5 / CSS</p>
-			</div>
-			<div class="col-md-2 skills-grid text-center">
-				<div class="circle" id="circles-5"></div>
-				<p>Python</p>
-			</div>
-			<div class="col-md-2 skills-grid text-center">
-				<div class="circle" id="circles-6"></div>
-				<p>Java</p>
-			</div>
-			<div class="clearfix"> </div>
-			<script type="text/javascript" src="js/circles.js"></script>
-			<script>
-				var colors = [
-					['#ffffff','#FFF056']
-				];
-				for (var i = 1; i <= 2; i++) {
-					var child = document.getElementById('circles-' + i),
-							percentage = 40;
-
-					Circles.create({
-						id:         child.id,
-						percentage: percentage,
-						radius:     80,
-						width:      10,
-						number:   	percentage / 1,
-						text:       '%',
-						colors:     colors[0]
-					});
-				}
-
-				for (var i = 3; i <= 6; i++) {
-					var child = document.getElementById('circles-' + i),
-							percentage = 60;
-
-					Circles.create({
-						id:         child.id,
-						percentage: percentage,
-						radius:     80,
-						width:      10,
-						number:   	percentage / 1,
-						text:       '%',
-						colors:     colors[0]
-					});
-				}
-
-			</script>
-		</div>
-	</div>
-</div>
-<!--//my-skill-->
-
-
-<!--start-contact-->
 <div class="contact" id="contact">
-	<div class="col-md-6 contact-top">
-		<div class="point"> <i class="glyphicon glyphicon-map-marker"></i></div>
-		<h3 class="tittle two">Contact Me</h3>
-		<h4>For any questions, please feel free to contact me.</h4>
-		<div class="contact-ad">
-			<p>Address: Duke University, Durham, NC 27708.<p>
-			<p>E-mail: <a href="mailto:david.yan@duke.edu">david.yan@duke.edu</a></p>
-
+	<div class="col-md-6 contact-top" style="width: 100%;">
+		<h3 class="tittle two" style="color: white; text-align: center;">Contact Me</h3>
+		<h4 style="color: white; text-align: center;">For any questions, please feel free to contact me.</h4>
+		<div class="contact-ad" style="text-align: center;">
+			<p style="color: white;">Address: Duke University, Durham, NC 27708.<p>
+			<p style="color: white;">E-mail: <a href="mailto:david.yan@duke.edu" style="color: white;">david.yan@duke.edu</a></p>
 		</div>
-	</div>
-	<div class="col-md-6 map">
-		<div style="text-decoration:none; overflow:hidden; height:440px; width:700px; max-width:100%;"><div id="my-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Duke+University,+Durham,+NC,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-html" href="http://www.treat-lice.com" id="get-data-for-embed-map">treat-lice.com</a><style>#my-map-display img{max-width:none!important;background:none!important;}</style></div><script src="https://www.treat-lice.com/google-maps-authorization.js?id=7d54d91a-27a6-f1dc-083e-9df795348e31&c=google-map-html&u=1456117982" defer="defer" async="async"></script>
 	</div>
 	<div class="clearfix"> </div>
 </div>
-<!--//contact-->
-
-
-<!--footer-->
-
-<!--start-smoth-scrolling-->
-<script type="text/javascript">
-	$(document).ready(function() {
-		/*
-		 var defaults = {
-		 containerID: 'toTop', // fading element id
-		 containerHoverID: 'toTopHover', // fading element hover id
-		 scrollSpeed: 1200,
-		 easingType: 'linear'
-		 };
-		 */
-
-		$().UItoTop({ easingType: 'easeOutQuart' });
-
-	});
-</script>
-<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 </body>
 </html>
