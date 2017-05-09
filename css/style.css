@@ -217,7 +217,7 @@ fieldset#body {
 	span.menu {
 	   width: 35px;
   height: 35px;
-  background: url(../images/nav.png)no-repeat 0px 0px;
+  /*background: url(../images/nav.png)no-repeat 0px 0px;*/
   display: inline-block;
   float: left;
   cursor: pointer;
@@ -1600,4 +1600,16 @@ h3.tittle.two {
 .contact-ad{
 	font-size: 1.4em;
 	padding-bottom: 1em;
+}
+
+.col-sm-2{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row imageRow{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
