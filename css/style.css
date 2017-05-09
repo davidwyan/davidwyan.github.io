@@ -1613,3 +1613,7 @@ h3.tittle.two {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.logo a:hover{
+	text-decoration: none;
+}
