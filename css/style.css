@@ -50,14 +50,14 @@ label{
 .logo a h1{
   font-size:7em;
   font-weight: 400;
-  color:#AACCFF;
+  color:#FFF;
  font-family: sans-serif;
 }
 .logo  a h1:hover{
  text-decoration:none;
 }
 .logo a h1 span {
-  color:#121245;
+  color:#020066;
 }
 ul.side_nav{
   position: fixed;
@@ -71,8 +71,8 @@ display:block;
 ul.side_nav li a{
 	width:12px;
 	height:12px;
-	background:#121245;
-	border:2px solid#121245;
+	background:#020066;
+	border:2px solid#020066;
 	border-radius:50%;
 	-o-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -89,7 +89,7 @@ nav a {
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color: #AACCFF;
+	color: #FFF;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -179,7 +179,7 @@ i.arrow {
   text-transform: uppercase;
   }
  #loginpop a span:hover{
-	background:#121245;
+	background:#020066;
 	 border: 1px solid #FFF056;
 	 color:#fff;
  }
@@ -200,7 +200,7 @@ fieldset#body {
     margin:0;
 }
 #body label {
-   color:#121245;
+   color:#020066;
     margin:10px 0 0 0;
     display:block;
     float:left;
@@ -244,7 +244,7 @@ fieldset#body {
 	  z-index: 999;
 	  position: absolute;
 	    width: 93.5%;
-	  background:#121245;
+	  background:#020066;
 	  text-align: center;
 	  margin-left: -2.3em;
 	}
@@ -263,7 +263,7 @@ fieldset#body {
 }
 /*--start-banner--*/
 .banner {
-  background: #121245;
+  background: #020066;
   min-height: 730px;
 }
 .banner-info {
@@ -304,7 +304,7 @@ display:inline-block;
 h3.tittle {
    font-size: 4em;
   font-weight: 900;
-  color: #121245;
+  color: #020066;
   font-family: 'Candal', sans-serif;text-align:center;
   margin-bottom:1em;
 }
@@ -315,19 +315,19 @@ h3.tittle {
   width:100%;
 }
 .text {
-  background-color: #121245;
+  background-color: #020066;
   min-height: 593px;
   padding: 4em;
 }
 .ab-grid.text h4 {
   font-size: 1.8em;
   line-height: 1.6em;
-  color: #AACCFF;
+  color: #FFF;
 }
 .ab-grid.text p{
   font-size:1.2em;
   line-height: 1.8em;
-  color: #AACCFF;
+  color: #FFF;
   width: 80%;
   margin: 1em 0;
 	text-align: left;
@@ -343,7 +343,7 @@ span.devide-line {
 }
 
 .contact {
-  background-color: #121245;
+  background-color: #020066;
 }
 h3.tittle.two {
   margin: 0.5em 0;
@@ -394,21 +394,21 @@ h3.tittle.two {
   font-size: 4em;
 }
 .map-l i {
-  color:#121245;
+  color:#020066;
   font-size: 4em;
 }
 /*--welcome--*/
 .copy {
    text-align: center;
-    background:#121245;
+    background:#020066;
     padding: 1em 1em;
   }
 .copy p {
-  color: #AACCFF;
+  color: #FFF;
   font-size:0.9em;
 }
 .copy p a {
-   color:#AACCFF;
+   color:#FFF;
 }
 .copy p a:hover{
 	 text-decoration: underline;
@@ -448,7 +448,7 @@ h3.tittle.two {
 	  text-align: center;
 	}
 	.banner {
-	  background: #121245;
+	  background: #020066;
 	  min-height: 700px;
 	}
 	.contact-top {
@@ -643,7 +643,7 @@ h3.tittle.two {
 	  }
 	  .experience-left h5, .experience-left-trd h5, .experience-right-snd h5 {
 	  font-size: 0.8em;
-	  color: #121245;
+	  color: #020066;
 	  margin: 14px 0;
 	}
 	.experience-left p,.experience-left-trd p,.experience-right-snd p {
@@ -778,7 +778,7 @@ h3.tittle.two {
 	  z-index: 999;
 	  position: absolute;
 	  width: 95.5%;
-	  background: #121245;
+	  background: #020066;
 	  text-align: center;
 	  margin-left: -2.3em;
 	}
@@ -825,7 +825,7 @@ h3.tittle.two {
 	}
 	.experience-left h5, .experience-left-trd h5, .experience-right-snd h5 {
 	  font-size: 0.65em;
-	  color: #121245;
+	  color: #020066;
 	  margin: 10px 0;
 	}
 	.experience-left h4, .experience-left-trd h4, .experience-right-snd h4 {
@@ -1619,7 +1619,7 @@ h3.tittle.two {
 }
 
 .textLang {
-  color: #AACCFF;
+  color: #FFF;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -1642,5 +1642,5 @@ h3.tittle.two {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #121245;
+  background-color: #020066;
 }
