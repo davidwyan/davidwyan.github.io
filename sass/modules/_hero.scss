@@ -1,0 +1,73 @@
+/**
+ * Hero styles
+ **/
+
+.hero {
+  position: relative;
+  overflow: hidden;
+
+  .content {
+    position: absolute;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans Condensed', helvetica, arial, sans-serif;
+    background: rgba(255,255,255,0.7);
+    padding: 20px 0px;
+  }
+
+  h1 {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+    &.quote {
+      font-size: 26px;
+      max-width: 60%;
+
+      @include breakpoint(600) {
+        font-size: 24px;
+        max-width: 80%;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    .icon {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin: 0px 10px;
+
+      @include breakpoint(600) {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    svg {
+      width: inherit;
+      height: inherit;
+    }
+
+    .twitter {
+      fill: #5EA9DD;
+    }
+
+    .linkedin {
+      fill: #0077B5;
+    }
+  }
+}
